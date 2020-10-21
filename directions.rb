@@ -1,6 +1,4 @@
-require 'pry'
-
-def dirReduc(arr, arr_length = 0)
+def dirReduc(arr)
   opposites = {
     "NORTH": "SOUTH",
     "EAST": "WEST"
@@ -16,7 +14,7 @@ def dirReduc(arr, arr_length = 0)
       holder = direction
     end 
   end
-  dirReduc(arr, arr.length) if arr.length < arr_length
+  dirReduc(arr) if arr.length < arr_length
   return arr
 end
 
