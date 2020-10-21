@@ -18,8 +18,6 @@ def dirReduc(arr)
   return arr
 end
 
-
-
 a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
 u = ["NORTH", "WEST", "SOUTH", "EAST"]
 
