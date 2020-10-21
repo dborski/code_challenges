@@ -1,13 +1,14 @@
+OPPOSITES = {
+  "NORTH": "SOUTH",
+  "EAST": "WEST"
+}
+
 def dirReduc(arr)
-  opposites = {
-    "NORTH": "SOUTH",
-    "EAST": "WEST"
-  }
   arr_length = arr.length
   
   holder = ''
   arr.each_with_index do |direction, index|
-    if index > 0 && (opposites[holder.to_sym] == direction || opposites.key(holder) == direction.to_sym)
+    if index > 0 && (OPPOSITES[holder.to_sym] == direction || OPPOSITES.key(holder) == direction.to_sym)
       arr.slice!(index - 1, 2)
       holder = ''
     else
