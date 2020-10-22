@@ -1,6 +1,8 @@
 OPPOSITES = {
   "NORTH": "SOUTH",
-  "EAST": "WEST"
+  "SOUTH": "NORTH",
+  "EAST": "WEST",
+  "WEST": "EAST"
 }
 
 def dirReduc(arr)
@@ -8,7 +10,7 @@ def dirReduc(arr)
   
   holder = ''
   arr.each_with_index do |direction, index|
-    if index > 0 && (OPPOSITES[holder.to_sym] == direction || OPPOSITES.key(holder) == direction.to_sym)
+    if index > 0 && OPPOSITES[holder.to_sym] == direction
       arr.slice!(index - 1, 2)
       holder = ''
     else
