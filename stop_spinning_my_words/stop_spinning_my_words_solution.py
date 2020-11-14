@@ -4,7 +4,7 @@ def spin_words(sentence):
       if len(word) > 4:
         split[i] = word[::-1]
 
-    return " ".join(split)
+    return ' '.join(split)
 
 
 
