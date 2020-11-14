@@ -5,6 +5,10 @@
 - [**Problem**](https://github.com/dborski/code_challenges/blob/main/camel_case/camel_case_problem.md)
 - [**Solution**](https://github.com/dborski/code_challenges/blob/main/camel_case/camel_case_solution.py)
 
+### stop_spinning_my_words
+- [**Problem**](https://github.com/dborski/code_challenges/blob/main/stop_spinning_my_words/stop_spinning_my_words_problem.md)
+- [**Solution**](https://github.com/dborski/code_challenges/blob/main/stop_spinning_my_words/stop_spinning_my_words_solution.py)
+
 ## Ruby
 ### directions_reducer
 - [**Problem**](https://github.com/dborski/code_challenges/blob/main/directions_reducer/directions_reducer_problem.md)
